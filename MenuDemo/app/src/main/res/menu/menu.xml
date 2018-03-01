@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/newfile"
+        android:title="新建"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add" />
+    <item android:id="@+id/search"
+        app:showAsAction="ifRoom"
+        android:title="搜索"
+        android:icon="@android:drawable/ic_menu_search" />
+    <item android:id="@+id/help"
+        app:showAsAction="never"
+        android:title="帮助"
+        android:icon="@android:drawable/ic_menu_help" />
+</menu>

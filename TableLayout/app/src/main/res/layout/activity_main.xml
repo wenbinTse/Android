@@ -1,0 +1,30 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="2">
+    <Button
+        android:text="单独占据一行"/>
+    <TableRow>
+        <Button
+            android:text="1行0列"/>
+        <Button
+            android:text="1行1列" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="2行0列"/>
+        <Button
+            android:text="2行1列"/>
+        <Button
+            android:text="............2行2列..........................."/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="3行0列"/>
+        <Button
+            android:text="3行2列"
+            android:layout_column="2"
+            />
+    </TableRow>
+
+</TableLayout>

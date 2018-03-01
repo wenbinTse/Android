@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextViewDemo</string>
+    <string name="textViewString">"苟利国家生死以\n岂因福祸避趋之"</string>
+</resources>
